@@ -6,23 +6,493 @@
     <link rel="stylesheet" href="./src/output.css" />
     <title>Homepage</title>
   </head>
-  <body>
-    <div class="wrapper grid grid-cols-1 place-content-center px-20">
-      <div class="navbar">
+  <body class="font-robboto">
+    <!--  -->
+    <div
+      class="wrapper grid grid-cols-1 place-items-center pl-[80px] pt-[20px] pr-[80px]"
+    >
+      <div class="flex w-[1440px] justify-between items-center mb-28">
         <img
+          class="w-[139.43px] h-[31.56px]"
           src="./assets/Finsweet black logo.svg"
           alt="An icon of Finsweet logo. it is white colored letters of Finsweet"
         />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Free trial</a></li>
+        <!--  -->
+        <ul class="flex jus items-center gap-8">
+          <li>
+            <a class="text-[16px] font-normal leading-6" href="#">Home</a>
+          </li>
+          <li>
+            <a class="text-[16px] font-normal leading-6" href="#">Product</a>
+          </li>
+          <li>
+            <a class="text-[16px] font-normal leading-6" href="#">Pricing</a>
+          </li>
+          <li>
+            <a class="text-[16px] font-normal leading-6" href="#">About Us</a>
+          </li>
+          <li>
+            <a class="text-[16px] font-normal leading-6" href="#">Blog</a>
+          </li>
+          <li>
+            <a class="text-[16px] font-normal leading-6" href="#">Contact</a>
+          </li>
+          <li>
+            <a
+              class="bg-black text-white pt-3 pb-3 pr-6 pl-6 rounded-lg text-[16px] font-bold leading-6"
+              href="#"
+              >Free trial</a
+            >
+          </li>
         </ul>
       </div>
+      <!--  -->
+      <section
+        class="w-[1024px] h-[1060px] bg-[url('/assets/blurGradient.svg')] bg-cover bg-right-top bg-no-repeat"
+      >
+        <h1
+          class="text-[56px] leading-[60px] text-center font-bold pl-[140px] pr-[140px] opacity-85 mb-8"
+        >
+          The Best Software to Grow your Sales and Services
+        </h1>
+
+        <p class="text-center p-44 -mt-44">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+        </p>
+        <div
+          class="ml-[250px] w-[576px] h-[72px] pr-8 rounded-lg -mt-32 relative bg-white"
+          id="freeTrial"
+        >
+          <input
+            class="pt-6 pb-6 pl-6 pr-6 mr-5 w-full rounded-3xl outline-none"
+            type="email"
+            placeholder="Enter Your Email"
+          />
+          <a
+            class="text-white font-bold bg-black w-[173px] h-[56px] pt-4 pb-4 pr-10 pl-10 rounded-[12px] text-center absolute right-7 top-2"
+            href="#"
+            >Get Free trial</a
+          >
+        </div>
+        <img
+          class="mt-14 w-[1024px] h-[667px] rounded-xl border-2 border-violet-300 mb-32"
+          src="./assets/dashboardImage.png"
+          alt="Main dashboard image "
+        />
+      </section>
+      <section class="w-[1280px] h-[561px] mb-[400px]">
+        <h3
+          class="text-center bg-gradient-to-r from-blue-600 via-blue-500 to-blue-500 text-transparent bg-clip-text text-[24px] font-bold"
+        >
+          High-quality
+        </h3>
+        <h1
+          class="text-[47px] leading-[60px] text-center font-bold pl-[210px] pr-[210px] opacity-85 mb-8"
+        >
+          We have the Best Solution for your Business
+        </h1>
+        <span
+          class="w-full h-[344px] bg-blue-50 p-16 rounded-md flex gap-3 mb-14"
+        >
+          <div class="w-[362px] h-[212px]" id="solution">
+            <img
+              class="w-[48px] h-[48px] mb-8"
+              src="./assets/security.svg"
+              alt=""
+            />
+            <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+              High security to protect from piracy
+            </h1>
+            <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy.
+            </h3>
+          </div>
+          <div class="w-[362px] h-[212px]" id="solution">
+            <img
+              class="w-[48px] h-[48px] mb-8"
+              src="./assets/thumbsUP.svg"
+              alt=""
+            />
+            <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+              Premium quality performance
+            </h1>
+            <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy.
+            </h3>
+          </div>
+          <div class="w-[362px] h-[212px]" id="solution">
+            <img
+              class="w-[48px] h-[48px] mb-8"
+              src="./assets/headPhones.svg"
+              alt=""
+            />
+            <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+              Full time customer support - 24/7
+            </h1>
+            <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy.
+            </h3>
+          </div>
+        </span>
+        <!--  -->
+        <span class="h-[344px] flex items-center gap-20">
+          <div class="w-1/2 h-[212px]" id="solution">
+            <h3
+              class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-500 text-transparent bg-clip-text text-[24px] mb-6 font-bold"
+            >
+              Why should you work with us?
+            </h3>
+            <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+              To upscale your business to the next level
+            </h1>
+            <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua invidunt ut labore.
+            </h3>
+          </div>
+          <div class="w-1/2 h-[212px]" id="solution">
+            <span class="flex items-center gap-5 mb-6">
+              <img
+                class="bg-red-300 pt-4 pb-4 pr-4 pl-4 rounded-full"
+                src="./assets/Arrow.svg"
+                alt="An icon of black Arrow"
+              />
+              <h3 class="text-[20px] leading-[30px] font-medium opacity-85">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </h3>
+            </span>
+            <span class="flex items-center gap-5 mb-6">
+              <img
+                class="bg-red-300 pt-4 pb-4 pr-4 pl-4 rounded-full"
+                src="./assets/Arrow.svg"
+                alt="An icon of black Arrow"
+              />
+              <h3 class="text-[20px] leading-[30px] font-medium opacity-85">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </h3>
+            </span>
+            <span class="flex items-center gap-5 mb-6">
+              <img
+                class="bg-red-300 pt-4 pb-4 pr-4 pl-4 rounded-full"
+                src="./assets/Arrow.svg"
+                alt="An icon of black Arrow"
+              />
+              <h3 class="text-[20px] leading-[30px] font-medium opacity-85">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </h3>
+            </span>
+          </div>
+        </span>
+        <!--  -->
+
+        <!--  -->
+      </section>
+      <span
+        class="w-[1440px] bg-gradient-to-l from-teal-400 to-blue-200 pr-20 pl-20 h-[344px] flex items-center"
+      >
+        <div class="h-[212px] pr-40 mt-10" id="solution">
+          <h2 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+            More impressions, more conversions
+          </h2>
+          <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-6">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua invidunt ut labore.
+          </h3>
+          <a class="text-white font-bold" href="#"
+            ><h6
+              class="bg-black w-[173px] h-[56px] rounded-lg pt-4 pb-4 pr-10 pl-10"
+            >
+              Get Free trial
+            </h6></a
+          >
+        </div>
+        <img
+          class="w-[420px] h-[300px] mr-28"
+          src="./assets/statistics.png"
+          alt="An icon of statistics"
+        />
+      </span>
+      <div class="w-[1280px] mt-6 flex gap-24" id="logos">
+        <img src="./assets/Logo 1.svg" alt="" />
+        <img src="./assets/Logo 2.svg" alt="" />
+        <img src="./assets/Logo 3.svg" alt="" />
+        <img src="./assets/Logo 4.svg" alt="" />
+        <img src="./assets/Logo 5.svg" alt="" />
+      </div>
+      <span class="h-[344px] w-[1280px] flex items-center gap-20">
+        <div class="w-1/2 h-[212px]" id="solution">
+          <h3
+            class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-500 text-transparent bg-clip-text text-[24px] mb-6 font-bold"
+          >
+            Discover More
+          </h3>
+          <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-10">
+            Analyze your sales and marketing leads
+          </h1>
+          <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua invidunt ut labore.
+          </h3>
+        </div>
+        <div class="w-1/2 h-[212px] mb-10" id="solution">
+          <span class="flex items-center gap-5 mb-6">
+            <img
+              class="bg-gray-200 w-[60px] pt-4 pb-4 pr-4 pl-4 rounded-full"
+              src="./assets/Icon@2x-5.png"
+              alt="An icon of black Arrow"
+            />
+            <h3 class="text-[20px] leading-[30px] font-medium opacity-85">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+            </h3>
+          </span>
+          <span class="flex items-center gap-5 mb-6">
+            <img
+              class="bg-gray-200 w-[60px] pt-4 pb-4 pr-4 pl-4 rounded-full"
+              src="./assets/Icon@2x-4.png"
+              alt="An icon of black Arrow"
+            />
+            <h3 class="text-[20px] leading-[30px] font-medium opacity-85">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+            </h3>
+          </span>
+          <span class="flex items-center gap-5 mb-6">
+            <img
+              class="bg-gray-200 w-[60px] pt-4 pb-4 pr-4 pl-4 rounded-full"
+              src="./assets/Icon@2x-3.png"
+              alt="An icon of black Arrow"
+            />
+            <h3 class="text-[20px] leading-[30px] font-medium opacity-85">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+            </h3>
+          </span>
+        </div>
+      </span>
+      <!--  -->
+      <section class="w-[1280px] h-[561px] mb-[20px]">
+        <h1
+          class="text-[47px] leading-[60px] text-center font-bold pl-[210px] pr-[210px] opacity-85 mb-8"
+        >
+          Features
+        </h1>
+        <span
+          class="w-full h-[344px] bg-red-50 p-16 rounded-md flex gap-3 mb-14"
+        >
+          <div class="w-[362px] h-[212px]" id="solution">
+            <img
+              class="w-[48px] h-[48px] mb-8"
+              src="./assets/encyrition.svg"
+              alt=""
+            />
+            <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+              Advanced 256-bit encryption
+            </h1>
+            <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor.
+            </h3>
+          </div>
+          <img src="./assets/divider.svg" alt="Line dividing intra-sections" />
+          <div class="w-[362px] h-[212px]" id="solution">
+            <img
+              class="w-[48px] h-[48px] mb-8"
+              src="./assets/Simplecollaborationtools.png"
+              alt=""
+            />
+            <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+              Simple collaboration tools
+            </h1>
+            <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor.
+            </h3>
+          </div>
+          <img src="./assets/divider.svg" alt="Line dividing intra-sections" />
+          <div class="w-[362px] h-[212px]" id="solution">
+            <img
+              class="w-[48px] h-[48px] mb-8"
+              src="./assets/Icon@2x.png"
+              alt=""
+            />
+            <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+              Customizable AI features
+            </h1>
+            <h3 class="text-[16px] leading-[20px] font-normal opacity-85 mb-8">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor.
+            </h3>
+          </div>
+        </span>
+      </section>
+      <!--  -->
+      <section class="w-[1280px] h-[568px] mb-20">
+        <h1
+          class="text-[47px] leading-[60px] text-center font-bold pl-[210px] pr-[210px] opacity-85 mb-8"
+        >
+          The stunning results our customers have experienced
+        </h1>
+        <span class="w-full h-[568px] p-16 rounded-md flex gap-6 mb-14">
+          <div
+            class="w-[411px] h-[404px] border-2 border-blue-200 rounded-2xl p-16 flex justify-center items-center flex-col"
+            id="solution"
+          >
+            <h3
+              class="text-[16px] text-center leading-[20px] opacity-85 mb-8 font-medium"
+            >
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </h3>
+            <img
+              src="./assets/profileOne.svg"
+              alt="An image of a customer, a man wearing green t-shirt and smiling."
+            />
+            <h3 class="text-[20px] font-medium">Ron Wood</h3>
+            <h5>CEO</h5>
+          </div>
+          <div
+            class="w-[411px] h-[404px] border-2 border-blue-200 rounded-2xl p-16 flex justify-center items-center flex-col"
+            id="solution"
+          >
+            <h3
+              class="text-[16px] text-center leading-[20px] font-medium opacity-85 mb-8"
+            >
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </h3>
+            <img
+              src="./assets/profile2.svg"
+              alt="An image of a customer, a man wearing green t-shirt and smiling."
+            />
+            <h3 class="text-[20px] font-medium">Ron Wood</h3>
+            <h5>Marketing Manager</h5>
+          </div>
+          <div
+            class="w-[411px] h-[404px] border-2 border-blue-200 rounded-2xl p-16 flex justify-center items-center flex-col"
+            id="solution"
+          >
+            <h3
+              class="text-[16px] text-center leading-[20px] font-medium opacity-85 mb-8"
+            >
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua.
+            </h3>
+            <img
+              src="./assets/profile3.svg"
+              alt="An image of a customer, a man wearing green t-shirt and smiling."
+            />
+            <h3 class="text-[20px] font-medium">Ron Wood</h3>
+            <h5>CTO</h5>
+          </div>
+        </span>
+      </section>
+      <!-- footer -->
+      <section
+        class="relative w-[1440px] h-[700px] flex flex-col justify-center items-center bg-[url('/assets/blurGradientfooter.svg')] bg-contain bg-no-repeat bg-opacity-20 bg-bottom overflow-hidden"
+      >
+        <h1 class="text-[30px] leading-[30px] font-bold opacity-85 mb-4">
+          Are you ready to grow your business with us?
+        </h1>
+        <h4 class="text-center mb-8">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy.
+        </h4>
+        <a class="bg-gray-900 rounded-md mb-72" href="#"
+          ><h6
+            class="text-white bg-black pt-4 pb-4 pr-10 pl-10 rounded-2xl w-[170px] h-[56px] font-medium"
+          >
+            View Pricing
+          </h6></a
+        >
+        <footer
+          class="w-[1120px] h-[340px] bg-gray-900 bottom-0 absolute"
+        ></footer>
+        <div class="flex justify-center pr-20 pl-32 -mt-10" id="links">
+          <div class="w-[230px] h-[212px]">
+            <h1
+              class="text-white text-[18px] leading-[30px] font-bold opacity-85 mb-4"
+            >
+              Company
+            </h1>
+            <ul
+              class="text-gray-200 text-[16px] leading-[20px] font-light opacity-85 mb-8"
+            >
+              <li class="mb-3"><a href="#">About Us</a></li>
+              <li class="mb-3"><a href="#">Why Choose us</a></li>
+              <li class="mb-3"><a href="#">Pricing</a></li>
+              <li class="mb-3"><a href="#">Testimonial</a></li>
+            </ul>
+          </div>
+          <div class="w-[230px] h-[212px]">
+            <h1
+              class="text-white text-[18px] leading-[30px] font-bold opacity-85 mb-4"
+            >
+              Resources
+            </h1>
+            <ul
+              class="text-gray-200 text-[16px] leading-[20px] font-light opacity-85 mb-8"
+            >
+              <li class="mb-3"><a href="#">Privacy Policy</a></li>
+              <li class="mb-3"><a href="#">Terms and Condition</a></li>
+              <li class="mb-3"><a href="#">Blog</a></li>
+              <li class="mb-3"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="w-[230px] h-[212px]">
+            <h1
+              class="text-white text-[18px] leading-[30px] font-bold opacity-85 mb-4"
+            >
+              Product
+            </h1>
+            <ul
+              class="text-gray-200 text-[16px] leading-[20px] font-light opacity-85 mb-8"
+            >
+              <li class="mb-3"><a href="#">Project managment</a></li>
+              <li class="mb-3"><a href="#">Time tracker</a></li>
+              <li class="mb-3"><a href="#">Time schedule</a></li>
+              <li class="mb-3"><a href="#">Lead generate</a></li>
+              <li class="mb-3"><a href="#">Remote Collaboration</a></li>
+            </ul>
+          </div>
+          <div class="w-[362px] h-[212px]">
+            <h1
+              class="text-white text-[18px] leading-[30px] font-bold opacity-85 mb-4"
+            >
+              <img class="w-[140px] h-[32px]" src="./assets/finis.png" alt="" />
+            </h1>
+            <a
+              class=" text-white font-medium text-[16px] leading-[20px] opacity-85 mb-16"
+              href="#"
+              >Subscribe to our Newsletter</a
+            >
+            <div
+              class="w-[330px] h-[56px] pr-8 rounded-md mt-4  relative bg-gray-800"
+            >
+              <input
+                class="pt-3 pb-3 pl-6 pr-6 mr-5 w-[330px] rounded-md outline-none relative bg-gray-800 text-white"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+              <a
+                class="text-gray-800 font-bold bg-white w-[120px] h-[56px] pt-4 pb-4 pr-16 pl-6 rounded-[12px] absolute top-0 right-0 text-center"
+                href="#"
+                >Subscribe</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <script src="./script.js"></script>
   </body>
