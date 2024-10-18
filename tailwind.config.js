@@ -8,7 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         blurGradient: "url('/assets/blurGradient.svg')",
-        blurGradientFooter: "url('/assets/blurGradientfooter.svg')",
+        blurGradientFooter: "url('/assets/BlurGradientFooter.png')",
       },
       colors:{
         primary: "#212121",
