@@ -7,9 +7,7 @@
     <title>Pricing</title>
   </head>
   <body class="font-robboto">
-    <div
-      class="wrapper grid grid-cols-1 place-items-center pl-[80px] pt-[20px] pr-[80px]"
-    >
+    <div class="wrapper grid grid-cols-1 place-items-center pl-20 pt-5 pr-20">
       <!-- Navigation bar -->
       <div class="flex w-[1440px] justify-between items-center mb-28">
         <img
@@ -45,6 +43,123 @@
           </li>
         </ul>
       </div>
+      <!-- middlde section -->
+
+      <div>
+        <section>
+          <h1
+            class="text-6xl text-center leading-tight font-bold opacity-85 pr-[500px] pl-[500px] mb-4"
+          >
+            Pricing plans that suit you
+          </h1>
+          <h4 class="text-center mb-8 pr-20 pl-20">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </h4>
+        </section>
+      </div>
+      <div
+        class="flex gap-1 bg-violet-200 p-2 rounded-xl"
+        id="monthlyYearlyButton"
+      >
+        <button
+          id="monthly"
+          class="bg-black pt-4 pb-4 pr-12 pl-12 rounded-xl text-white text-base font-bold"
+        >
+          Monthly
+        </button>
+        <button
+          id="yearly"
+          class="bg-black pt-4 pb-4 pr-12 pl-12 rounded-xl text-white text-base font-bold"
+        >
+          Monthly
+        </button>
+      </div>
+      <div class="flex items-center mt-12 gap-6">
+        <div
+          class="pt-11 bg-white box w-[411px] h-[714px] bg-gradient-to-b from-primary-0 to-secondar-0 bg-cover bg-repeat rounded-3xl"
+        >
+          <div id="header">
+            <div class="flex items-center gap-6 pl-12">
+              <span
+                id="dots"
+                class="bg-sky-100 w-[54px] h-[54px] rounded-full flex gap-1 flex-col justify-center items-center"
+              >
+                <div class="flex gap-1 items-center" id="left">
+                  <div class="w-[9px] h-[9px] rounded-[9px] bg-blue-600"></div>
+                  <div class="w-[13px] h-[9px] rounded-[9px] bg-blue-600"></div>
+                </div>
+                <div class="flex gap-1 items-center" id="right">
+                  <div class="w-[15px] h-[9px] rounded-[9px] bg-blue-600"></div>
+                  <div class="w-[9px] h-[9px] rounded-[8px] bg-blue-600"></div>
+                </div>
+              </span>
+              <span>
+                <h3 class="text-4xl text-black font-bold">Plantinum</h3>
+                <h5 class="text-sm font-normal text-gray-500">
+                  For the best results
+                </h5>
+              </span>
+            </div>
+            <hr
+              class="w-full h-[1px] my-4 bg-gray-400 opacity-50 border-0 rounded md:my-10 dark:bg-gray-700"
+            />
+          </div>
+          <div class="pl-12 flex items-center gap-4 mb-6">
+            <div
+              class="bg-teal-100 w-6 h-6 rounded-full flex justify-center items-center"
+            >
+              <img src="./assets/check.svg" alt="An icon of check mark" />
+            </div>
+            <h6 class="text-base font-bold">Limited Projects</h6>
+          </div>
+          <div class="pl-12 flex items-center gap-4 mb-6">
+            <div
+              class="bg-teal-100 w-6 h-6 rounded-full flex justify-center items-center"
+            >
+              <img src="./assets/check.svg" alt="An icon of check mark" />
+            </div>
+            <h6 class="text-base font-bold">Regular Support Business</h6>
+          </div>
+          <div class="pl-12 flex items-center gap-4 mb-6">
+            <div
+              class="bg-teal-100 w-6 h-6 rounded-full flex justify-center items-center"
+            >
+              <img src="./assets/check.svg" alt="An icon of check mark" />
+            </div>
+            <h6 class="text-base font-bold">1 month Free Trial</h6>
+          </div>
+          <div class="pl-12 flex items-center gap-4 mb-6">
+            <div
+              class="bg-teal-100 w-6 h-6 rounded-full flex justify-center items-center"
+            >
+              <img src="./assets/check.svg" alt="An icon of check mark" />
+            </div>
+            <h6 class="text-base font-bold">20GB storage</h6>
+          </div>
+          <div class="pl-12 flex items-center gap-4 mb-8">
+            <div
+              class="bg-teal-100 w-6 h-6 rounded-full flex justify-center items-center"
+            >
+              <img src="./assets/check.svg" alt="An icon of check mark" />
+            </div>
+            <h6 class="text-base font-bold">Ads Preview</h6>
+          </div>
+          <h6 class="text-center pr-12 pl-12 mb-12">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </h6>
+          <h3 class="text-center font-bold text-4xl">$342</h3>
+          <h6 class="text-center text-[10px]">For Limited Period</h6>
+          <div class="w-full flex justify-center items-center mt-6">
+            <a
+              class="text-base font-bold bg-gray-950 rounded-xl text-white pt-4 pb-4 pr-10 pl-10"
+              href="#"
+              >Get started</a
+            >
+          </div>
+        </div>
+      </div>
+
       <!-- footer -->
       <section
         class="relative w-[1440px] h-[700px] flex flex-col justify-center items-center bg-[url('/assets/BlurGradientFooter.png')] bg-cover bg-no-repeat bg-opacity-20 bg-bottom overflow-hidden"
@@ -117,7 +232,11 @@
             <h1
               class="text-white text-[18px] leading-[30px] font-bold opacity-85 mb-4"
             >
-              <img class="w-[140px] h-[32px]" src="./assets/Finsweetwhitelogo.svg" alt="" />
+              <img
+                class="w-[140px] h-[32px]"
+                src="./assets/Finsweetwhitelogo.svg"
+                alt=""
+              />
             </h1>
             <a
               class="text-white font-medium text-[16px] leading-[20px] opacity-85 mb-16"
