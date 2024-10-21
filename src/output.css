@@ -721,6 +721,42 @@ video {
   height: 888px;
 }
 
+.h-\[\]{
+  height: ;
+}
+
+.h-\[170px\]{
+  height: 170px;
+}
+
+.h-\[650px\]{
+  height: 650px;
+}
+
+.h-\[297\]{
+  height: 297;
+}
+
+.h-\[297px\]{
+  height: 297px;
+}
+
+.h-\[445\]{
+  height: 445;
+}
+
+.h-\[445px\]{
+  height: 445px;
+}
+
+.h-\[584\]{
+  height: 584;
+}
+
+.h-\[584px\]{
+  height: 584px;
+}
+
 .w-5{
   width: 1.25rem;
 }
@@ -779,6 +815,34 @@ video {
 
 .w-\[616px\]{
   width: 616px;
+}
+
+.w-\[38\]{
+  width: 38;
+}
+
+.w-\[378\]{
+  width: 378;
+}
+
+.w-\[378px\]{
+  width: 378px;
+}
+
+.w-\[1257px\]{
+  width: 1257px;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[576\]{
+  width: 576;
+}
+
+.w-\[1240px\]{
+  width: 1240px;
 }
 
 .grow{
@@ -898,6 +962,22 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[wid\]{
+  background-color: wid;
+}
+
+.bg-\[width\]{
+  background-color: width;
+}
+
+.bg-\[h\]{
+  background-color: h;
+}
+
 .bg-opacity-20{
   --tw-bg-opacity: 0.2;
 }
@@ -910,13 +990,25 @@ video {
   background-image: linear-gradient(to left, var(--tw-gradient-stops));
 }
 
-.bg-gradient-to-t{
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+.bg-\[url\(\'\/assets\/\'\)\]{
+  background-image: url('/assets/');
 }
 
-.from-slate-50{
-  --tw-gradient-from: #f8fafc var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(248 250 252 / 0) var(--tw-gradient-to-position);
+.bg-\[url\(\'\/assets\/biggerGradient\'\)\]{
+  background-image: url('/assets/biggerGradient');
+}
+
+.bg-\[url\(\'\/assets\/biggerGradient\.svg\'\)\]{
+  background-image: url('/assets/biggerGradient.svg');
+}
+
+.bg-\[url\(\'\/assets\/BlurGradient\.svg\'\)\]{
+  background-image: url('/assets/BlurGradient.svg');
+}
+
+.from-green-50{
+  --tw-gradient-from: #f0fdf4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(240 253 244 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -932,8 +1024,8 @@ video {
   background-position: bottom;
 }
 
-.bg-repeat{
-  background-repeat: repeat;
+.bg-left-bottom{
+  background-position: left bottom;
 }
 
 .bg-no-repeat{
@@ -1012,6 +1104,18 @@ video {
   padding-top: 1.25rem;
 }
 
+.pt-20{
+  padding-top: 5rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1053,6 +1157,11 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold{
