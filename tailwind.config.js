@@ -6,6 +6,10 @@ module.exports = {
       fontFamily: {
         robboto: ["Roboto"],
       },
+      colors:{
+        primary:["#D7E7F9"],
+        secondar:["#D5F4EC"],
+      }
     },
   },
   plugins: [],
