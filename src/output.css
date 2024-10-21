@@ -661,6 +661,14 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
+.mb-9{
+  margin-bottom: 2.25rem;
+}
+
 .flex{
   display: flex;
 }
@@ -735,6 +743,38 @@ video {
 
 .h-\[9px\]{
   height: 9px;
+}
+
+.h-\[460px\]{
+  height: 460px;
+}
+
+.h-\[255\]{
+  height: 255;
+}
+
+.h-\[256px\]{
+  height: 256px;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-\[21px\]{
+  height: 21px;
+}
+
+.h-12{
+  height: 3rem;
+}
+
+.min-h-\[\]{
+  min-height: ;
+}
+
+.min-h-\[148px\]{
+  min-height: 148px;
 }
 
 .w-5{
@@ -821,6 +861,42 @@ video {
   width: 100%;
 }
 
+.w-\[6\]{
+  width: 6;
+}
+
+.w-\[622px\]{
+  width: 622px;
+}
+
+.w-\[300\]{
+  width: 300;
+}
+
+.w-\[300px\]{
+  width: 300px;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[303\]{
+  width: 303;
+}
+
+.w-\[303px\]{
+  width: 303px;
+}
+
+.w-\[21px\]{
+  width: 21px;
+}
+
+.w-12{
+  width: 3rem;
+}
+
 .grow{
   flex-grow: 1;
 }
@@ -867,6 +943,10 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-36{
+  gap: 9rem;
 }
 
 .overflow-hidden{
@@ -970,6 +1050,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20{
@@ -1104,6 +1189,14 @@ video {
   padding-top: 1.25rem;
 }
 
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
+.pr-3{
+  padding-right: 0.75rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1158,6 +1251,15 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[56px\]{
+  font-size: 56px;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1172,6 +1274,10 @@ video {
 
 .font-normal{
   font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .leading-6{
@@ -1213,6 +1319,20 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
+}
+
+.placeholder-black::-moz-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-black::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-placeholder-opacity));
 }
 
 .opacity-50{
