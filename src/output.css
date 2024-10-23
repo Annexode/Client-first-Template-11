@@ -1000,6 +1000,18 @@ video {
   padding: 4rem;
 }
 
+.pl-20{
+  padding-left: 5rem;
+}
+
+.pr-20{
+  padding-right: 5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
 .pb-24{
   padding-bottom: 6rem;
 }
@@ -1018,10 +1030,6 @@ video {
 
 .pl-10{
   padding-left: 2.5rem;
-}
-
-.pl-20{
-  padding-left: 5rem;
 }
 
 .pl-28{
@@ -1050,10 +1058,6 @@ video {
 
 .pr-16{
   padding-right: 4rem;
-}
-
-.pr-20{
-  padding-right: 5rem;
 }
 
 .pr-36{
@@ -1090,10 +1094,6 @@ video {
 
 .pt-4{
   padding-top: 1rem;
-}
-
-.pt-5{
-  padding-top: 1.25rem;
 }
 
 .text-center{
